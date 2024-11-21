@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<None Remove="**\*.verified.txt" />
+	<None Remove="**\*.received.txt" />
+  </ItemGroup>
+
+</Project>
